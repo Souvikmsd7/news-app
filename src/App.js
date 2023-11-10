@@ -1,14 +1,14 @@
 import './App.css';
 
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 import NavBar from './components/NavBar';
 import News from './components/News';
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
-import LoadingBar from 'react-top-loading-bar'
+import LoadingBar from 'react-top-loading-bar';
 
 const App = ()=> {
   const pageSize = 5;
-  const apiKey = process.env.REACT_APP_NEWS_API
+  const apiKey = "395d050be38942708473d2f12c205ca2";
   const [progress, setProgress] = useState(0)
  
     return (
